@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "EpilepsySansBold";
+  src: url("../fonts/EpilepsySansBold.woff") format("woff"),
+    url("../fonts/EpilepsySansBold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "EpilepsySansMedium";
+  src: url("../fonts/EpilepsySans.woff") format("woff"),
+    url("../fonts/EpilepsySans.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PPMondwest";
+  src: url("../fonts/ppmondwest-regular.woff") format("woff"),
+    url("../fonts/ppmondwest-regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ThatThatNewPixelFamilyTest";
+  src: url("../fonts/thatthatnewpixelfamilytest-square.woff") format("woff"),
+    url("../fonts/thatthatnewpixelfamilytest-square.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ThatThatNewPixelFamilyTestItalic";
+  src: url("../fonts/thatthatnewpixelfamilytest-italicsquare.woff")
+      format("woff"),
+    url("../fonts/thatthatnewpixelfamilytest-italicsquare.ttf")
+      format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
