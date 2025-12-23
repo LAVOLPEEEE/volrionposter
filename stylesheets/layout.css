@@ -9,7 +9,6 @@ body {
 }
 
 /* <!-- 1 гифка с розовой строкой --> */
-
 #stroka1 {
   width: 100%;
   height: 75px;
@@ -18,28 +17,13 @@ body {
   height: 100%;
   width: 100%;
   background-image: url("../images/1.1stroka.svg");
-  animation: strokagif 4s infinite steps(1);
+  animation: strokagif 1s infinite steps(1);
 }
 
-/* <!-- глаза --> */
-/* .eyes1 {
-  position: relative;
-  width: 100%;
-  height: 40%;
-}
-.eyes1-1 {
-  position: absolute;
-  width: 100%;
-  height: 40%;
-  top: 5%;
-  left: 2%;
-} */
-
-/* <!-- зрачки задние соо --> */
-
+/* <!-- глаза, сообщения, кубики --> */
 .back {
   width: 100%;
-  height: 51.1vw;
+  height: 49vw;
 }
 .msg1 {
   position: absolute;
@@ -48,29 +32,379 @@ body {
 }
 .msg2 {
   position: absolute;
-  padding-top: 21vw;
+  padding-top: 15vw;
   padding-left: 5vw;
 }
 .msg3 {
   position: absolute;
-  padding-top: 27vw;
+  padding-top: 21vw;
   padding-left: -2vw;
 }
 .msg4 {
   position: absolute;
-  padding-top: 20.5vw;
+  padding-top: 15vw;
   padding-left: 54.6vw;
 }
 .msg5 {
   position: absolute;
-  padding-top: 14.8vw;
+  padding-top: 9.2vw;
   padding-left: 65.3vw;
 }
-.eyes {
+/* .eyes {
   position: absolute;
   width: 99vw;
-  /* height: 39vw; */
   padding-top: 14vw;
   z-index: 2;
-  /* padding-left: 22.8vw; */
+} */
+.msg6 {
+  position: absolute;
+  padding-top: 4vw;
+  padding-left: 79.8vw;
+  z-index: 3;
+}
+.msg7 {
+  position: absolute;
+  padding-top: 18.3vw;
+  padding-left: 80vw;
+  z-index: 3;
+}
+.msg8 {
+  position: absolute;
+  padding-top: 4.9vw;
+  padding-left: 54vw;
+  z-index: 3;
+}
+.msg9 {
+  position: absolute;
+  padding-top: 3vw;
+  padding-left: 37vw;
+  z-index: 3;
+}
+.msg10 {
+  position: absolute;
+  padding-top: 5vw;
+  padding-left: 19vw;
+  z-index: 3;
+}
+.msg11 {
+  position: absolute;
+  padding-top: 2vw;
+  padding-left: 6vw;
+  z-index: 3;
+}
+.msg12 {
+  position: absolute;
+  padding-top: 9.3vw;
+  padding-left: 1.7vw;
+  z-index: 3;
+}
+.msg13 {
+  position: absolute;
+  padding-top: 11vw;
+  padding-left: 40vw;
+  z-index: 3;
+}
+.msg14 {
+  position: absolute;
+  padding-top: 28vw;
+  padding-left: 8vw;
+  z-index: 3;
+}
+.msg15 {
+  position: absolute;
+  padding-top: 34vw;
+  padding-left: 1.8vw;
+  z-index: 2;
+}
+.msg16 {
+  position: absolute;
+  padding-top: 38vw;
+  padding-left: 15vw;
+  z-index: 3;
+}
+.msg17 {
+  position: absolute;
+  padding-top: 42vw;
+  padding-left: 8vw;
+  z-index: 2;
+}
+.msg18 {
+  position: absolute;
+  padding-top: 41vw;
+  padding-left: 29vw;
+  z-index: 2;
+}
+.msg19 {
+  position: absolute;
+  padding-top: 34.8vw;
+  padding-left: 40vw;
+  z-index: 3;
+}
+.msg20 {
+  position: absolute;
+  padding-top: 39.8vw;
+  padding-left: 49.3vw;
+  z-index: 2;
+}
+.msg21 {
+  position: absolute;
+  padding-top: 37.1vw;
+  padding-left: 62vw;
+  z-index: 3;
+}
+.msg22 {
+  position: absolute;
+  padding-top: 42vw;
+  padding-left: 60vw;
+  z-index: 1;
+}
+.msg23 {
+  position: absolute;
+  padding-top: 34vw;
+  padding-left: 73vw;
+  z-index: 2;
+}
+.msg24 {
+  position: absolute;
+  padding-top: 41.8vw;
+  padding-left: 78vw;
+  z-index: 3;
+}
+.msg25 {
+  position: absolute;
+  padding-top: 38vw;
+  padding-left: 84.3vw;
+  z-index: 2;
+}
+.msg26 {
+  position: absolute;
+  padding-top: 30vw;
+  padding-left: 85vw;
+  z-index: 3;
+}
+#stroka2 {
+  width: 100%;
+  height: 75px;
+}
+.stroka1-2 {
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/stroke1-2.svg");
+  animation: strokagif2 1s infinite steps(1);
+}
+
+/* <!-- второй экран --> */
+.circles__container {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.circles__block {
+  flex: 1 1 50%;
+  display: flex;
+  padding: 6px;
+}
+
+.circles__left {
+  background-color: #ffffff;
+}
+
+.circles__right {
+  width: 50%;
+  padding: 0;
+  flex-direction: column;
+  justify-content: space-between;
+  aspect-ratio: 15 / 7;
+}
+
+.circles__grid {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  gap: 6px;
+  aspect-ratio: 15 / 7;
+  width: 100%;
+}
+
+.circles__cell {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circles__cell::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 50%;
+  border: calc(0.1vw + 1px) solid #ff0066;
+}
+
+.circles__cell img {
+  width: 100%;
+  height: 100%;
+}
+.circles__cell:nth-child(2n)::before {
+  border: none;
+  border-radius: 0;
+  background: none;
+}
+
+.circles__right-row {
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.circles__right-row--1 {
+  height: 23%;
+  background: #fff6fa;
+}
+
+.circles__right-row--1 .marquee-svg {
+  height: 50%;
+  margin-right: -0.11rem;
+}
+
+.circles__right-row--2 {
+  height: 22%;
+  background: #ffd9e8;
+}
+
+.circles__right-row--2 .svg-marquee {
+  height: 55%;
+}
+.circles__right-row--2 .marquee-svg {
+  margin-right: -0.22rem;
+}
+
+.circles__right-row--3 {
+  height: 22%;
+  background: #ff82b4;
+}
+
+.circles__right-row--3 .svg-marquee {
+  height: 65%;
+}
+
+.circles__right-row--3 .marquee-svg {
+  margin-right: -0.85rem;
+}
+
+.circles__right-row .svg-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee-svg 15s linear infinite;
+}
+
+.circles__right-row .marquee-svg {
+  height: 100%;
+  width: auto;
+  flex-shrink: 0;
+}
+
+.circles__right-row:hover .svg-marquee {
+  /*animation: marquee-svg 45s linear infinite;*/
+  animation-play-state: paused;
+}
+
+.circles__right-row--4 {
+  height: 33%;
+  background: #ff0066;
+  font-size: 3.8vw;
+  padding-left: 1%;
+  color: #ffffff;
+}
+
+.circles__right-row--4_text {
+  margin-bottom: 0.5em;
+  font-family: "EpilepsySansBold";
+  font-weight: bold;
+  font-style: normal;
+  animation: text-shake 0.6s infinite ease-in-out;
+}
+
+/* <!-- касеты --> */
+.screen3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  /* padding: 20px; */
+}
+
+/* Общий стиль карточки */
+.card {
+  position: relative;
+  flex: 1;
+  padding: 3.7%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Фоны */
+.card.green {
+  background: #d9ffd9;
+}
+
+.card.pink {
+  background: #ffd6e7;
+}
+
+/* Цифры сверху */
+.label {
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 0.35vw 0.75vw;
+  font-size: 2.3vw;
+  font-family: "EpilepsySansBold";
+  font-weight: bold;
+  font-style: normal;
+  color: #000;
+}
+
+.green .label {
+  background: #32ff32;
+}
+
+.pink .label {
+  background: #ff2b78;
+  color: #fff;
+}
+
+/* Картинка */
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* КРУГИ */
+.wheel {
+  position: absolute;
+  width: 13vw;
+  height: 13vw;
+  /* height: 10vw; */
+  /* animation: spin 1.5s linear infinite; */
+  transform-origin: center;
+  z-index: 4;
+}
+
+/* Позиции кругов — подгоняешь под картинку */
+.wheel {
+  top: 5.49vw;
+  left: 4.99vw;
 }

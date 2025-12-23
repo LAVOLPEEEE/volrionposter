@@ -1,4 +1,21 @@
-@media screen and (max-width: 1469px) {
+/* @media screen and (max-width: 1469px) {
   .stroka1-1 {
+  }
+} */
+
+@media (max-width: 450px) {
+  .circles__container {
+    flex-direction: column-reverse;
+  }
+
+  .circles__block {
+    flex: 1 1 100%;
+    height: auto;
+    width: 100%;
+  }
+
+  .circles__right-row--4_text {
+    font-size: 7vw;
+    margin-bottom: 0.1em;
   }
 }

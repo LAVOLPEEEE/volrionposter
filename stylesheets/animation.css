@@ -16,3 +16,53 @@
     background-position-y: -300px;
   }
 }
+@keyframes strokagif2 {
+  0% {
+    background-position-y: 0;
+  }
+  20% {
+    background-position-y: -75.1px;
+  }
+  60% {
+    background-position-y: -149.9px;
+  }
+  80% {
+    background-position-y: -225px;
+  }
+  100% {
+    background-position-y: -300px;
+  }
+}
+
+@keyframes marquee-svg {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes text-shake {
+  0% {
+    transform: translate(0, 0);
+  }
+  15% {
+    transform: translate(0.05em, -0.1em);
+  }
+  30% {
+    transform: translate(-0.1em, 0.05em);
+  }
+  45% {
+    transform: translate(0.1em, 0.1em);
+  }
+  60% {
+    transform: translate(-0.05em, -0.1em);
+  }
+  75% {
+    transform: translate(0.1em, -0.05em);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
