@@ -1,0 +1,18 @@
+/* спрайтовая анимация розовой строки */
+@keyframes strokagif {
+  0% {
+    background-position-y: 0;
+  }
+  20% {
+    background-position-y: -75.1\05px;
+  }
+  60% {
+    background-position-y: -149.9px;
+  }
+  80% {
+    background-position-y: -225px;
+  }
+  100% {
+    background-position-y: -300px;
+  }
+}
