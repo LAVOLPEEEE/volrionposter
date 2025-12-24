@@ -22,166 +22,281 @@ body {
 
 /* <!-- глаза, сообщения, кубики --> */
 .back {
+  position: relative;
   width: 100%;
-  height: 49vw;
+  aspect-ratio: 2 / 1;
+  min-height: 400px;
 }
-.msg1 {
-  position: absolute;
-  padding-top: 7.8vw;
-  padding-left: 22.8vw;
+
+.back img {
+  height: auto;
 }
-.msg2 {
-  position: absolute;
-  padding-top: 15vw;
-  padding-left: 5vw;
-}
-.msg3 {
-  position: absolute;
-  padding-top: 21vw;
-  padding-left: -2vw;
-}
-.msg4 {
-  position: absolute;
-  padding-top: 15vw;
-  padding-left: 54.6vw;
-}
-.msg5 {
-  position: absolute;
-  padding-top: 9.2vw;
-  padding-left: 65.3vw;
-}
+
+/* .back img:hover {
+  scale: 1.1;
+} */
+
 /* .eyes {
   position: absolute;
   width: 99vw;
   padding-top: 14vw;
   z-index: 2;
 } */
+.msg1 {
+  position: absolute;
+  top: 16%;
+  left: 22%;
+}
+.msg1 img {
+  width: 13vw;
+}
+
+.msg2 {
+  position: absolute;
+  top: 32%;
+  left: 7%;
+}
+.msg2 img {
+  width: 16vw;
+}
+
+.msg3 {
+  position: absolute;
+  top: 48%;
+  left: 2%;
+}
+.msg3 img {
+  width: 12vw;
+}
+
+.msg4 {
+  position: absolute;
+  top: 32%;
+  left: 55%;
+}
+.msg4 img {
+  width: 14vw;
+}
+
+.msg5 {
+  position: absolute;
+  top: 20%;
+  left: 65%;
+}
+.msg5 img {
+  width: 12vw;
+}
+
 .msg6 {
   position: absolute;
-  padding-top: 4vw;
-  padding-left: 79.8vw;
+  top: 8.3%;
+  left: 79.8%;
   z-index: 3;
 }
+.msg6 img {
+  width: 15vw;
+}
+
 .msg7 {
   position: absolute;
-  padding-top: 18.3vw;
-  padding-left: 80vw;
+  top: 25.6%;
+  left: 85%;
   z-index: 3;
 }
+.msg7 img {
+  width: 12vw;
+}
+
 .msg8 {
   position: absolute;
-  padding-top: 4.9vw;
-  padding-left: 54vw;
+  top: 11.3%;
+  left: 57%;
   z-index: 3;
 }
+.msg8 img {
+  width: 12vw;
+}
+
 .msg9 {
   position: absolute;
-  padding-top: 3vw;
-  padding-left: 37vw;
+  top: 6.3%;
+  left: 37%;
   z-index: 3;
 }
+.msg9 img {
+  width: 12vw;
+}
+
 .msg10 {
   position: absolute;
-  padding-top: 5vw;
-  padding-left: 19vw;
+  top: 10.4%;
+  left: 19%;
   z-index: 3;
 }
+.msg10 img {
+  width: 13vw;
+}
+
 .msg11 {
   position: absolute;
-  padding-top: 2vw;
-  padding-left: 6vw;
+  top: 4.2%;
+  left: 6%;
   z-index: 3;
 }
+.msg11 img {
+  width: 11vw;
+}
+
 .msg12 {
   position: absolute;
-  padding-top: 9.3vw;
-  padding-left: 1.7vw;
+  top: 19.4%;
+  left: 1.7%;
   z-index: 3;
 }
+.msg12 img {
+  width: 15vw;
+}
+
 .msg13 {
   position: absolute;
-  padding-top: 11vw;
-  padding-left: 40vw;
+  top: 22.9%;
+  left: 41%;
   z-index: 3;
 }
+.msg13 img {
+  width: 16vw;
+}
+
 .msg14 {
   position: absolute;
-  padding-top: 28vw;
-  padding-left: 8vw;
+  top: 58.3%;
+  left: 8%;
   z-index: 3;
 }
+.msg14 img {
+  width: 12vw;
+}
+
 .msg15 {
   position: absolute;
-  padding-top: 34vw;
-  padding-left: 1.8vw;
+  top: 70.8%;
+  left: 1.8%;
   z-index: 2;
 }
+.msg15 img {
+  width: 17vw;
+}
+
 .msg16 {
   position: absolute;
-  padding-top: 38vw;
-  padding-left: 15vw;
+  top: 79.2%;
+  left: 15%;
   z-index: 3;
 }
+.msg16 img {
+  width: 13vw;
+}
+
 .msg17 {
   position: absolute;
-  padding-top: 42vw;
-  padding-left: 8vw;
+  top: 86.9%;
+  left: 8%;
   z-index: 2;
 }
+.msg17 img {
+  width: 13vw;
+}
+
 .msg18 {
   position: absolute;
-  padding-top: 41vw;
-  padding-left: 29vw;
+  top: 85.4%;
+  left: 28%;
   z-index: 2;
 }
+.msg18 img {
+  width: 17vw;
+}
+
 .msg19 {
   position: absolute;
-  padding-top: 34.8vw;
-  padding-left: 40vw;
+  top: 72.5%;
+  left: 40%;
   z-index: 3;
 }
+.msg19 img {
+  width: 19vw;
+}
+
 .msg20 {
   position: absolute;
-  padding-top: 39.8vw;
-  padding-left: 49.3vw;
+  top: 82.9%;
+  left: 49.3%;
   z-index: 2;
 }
+.msg20 img {
+  width: 15vw;
+}
+
 .msg21 {
   position: absolute;
-  padding-top: 37.1vw;
-  padding-left: 62vw;
+  top: 77.3%;
+  left: 64%;
   z-index: 3;
 }
+.msg21 img {
+  width: 13vw;
+}
+
 .msg22 {
   position: absolute;
-  padding-top: 42vw;
-  padding-left: 60vw;
+  top: 86.5%;
+  left: 62.5%;
   z-index: 1;
 }
+.msg22 img {
+  width: 16vw;
+}
+
 .msg23 {
   position: absolute;
-  padding-top: 34vw;
-  padding-left: 73vw;
+  top: 70.8%;
+  left: 76%;
   z-index: 2;
 }
+.msg23 img {
+  width: 15vw;
+}
+
 .msg24 {
   position: absolute;
-  padding-top: 41.8vw;
-  padding-left: 78vw;
+  top: 85.4%;
+  left: 79%;
   z-index: 3;
 }
+.msg24 img {
+  width: 11vw;
+}
+
 .msg25 {
   position: absolute;
-  padding-top: 38vw;
-  padding-left: 84.3vw;
+  top: 77.1%;
+  left: 84.3%;
   z-index: 2;
 }
+.msg25 img {
+  width: 12vw;
+}
+
 .msg26 {
   position: absolute;
-  padding-top: 30vw;
-  padding-left: 85vw;
+  top: 62.5%;
+  left: 85%;
   z-index: 3;
 }
+.msg26 img {
+  width: 12vw;
+}
+/* <!-- 1 гифка с зелёной строкой --> */
 #stroka2 {
   width: 100%;
   height: 75px;
@@ -194,24 +309,24 @@ body {
 }
 
 /* <!-- второй экран --> */
-.circles__container {
+.circles-container {
   display: flex;
   width: 100%;
   align-items: stretch;
   flex-wrap: wrap;
 }
 
-.circles__block {
+.circles-block {
   flex: 1 1 50%;
   display: flex;
   padding: 6px;
 }
 
-.circles__left {
+.circles-left {
   background-color: #ffffff;
 }
 
-.circles__right {
+.circles-right {
   width: 50%;
   padding: 0;
   flex-direction: column;
@@ -219,7 +334,7 @@ body {
   aspect-ratio: 15 / 7;
 }
 
-.circles__grid {
+.circles-grid {
   display: grid;
   grid-template-columns: repeat(15, 1fr);
   grid-template-rows: repeat(7, 1fr);
@@ -228,7 +343,7 @@ body {
   width: 100%;
 }
 
-.circles__cell {
+.circles-cell {
   width: 100%;
   aspect-ratio: 1 / 1;
   position: relative;
@@ -237,7 +352,7 @@ body {
   align-items: center;
 }
 
-.circles__cell::before {
+.circles-cell::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -245,17 +360,17 @@ body {
   border: calc(0.1vw + 1px) solid #ff0066;
 }
 
-.circles__cell img {
+.circles-cell img {
   width: 100%;
   height: 100%;
 }
-.circles__cell:nth-child(2n)::before {
+.circles-cell:nth-child(2n)::before {
   border: none;
   border-radius: 0;
   background: none;
 }
 
-.circles__right-row {
+.circles-right-row {
   width: 100%;
   overflow: hidden;
   display: flex;
@@ -263,59 +378,59 @@ body {
   position: relative;
 }
 
-.circles__right-row--1 {
+.circles-right-row-1 {
   height: 23%;
   background: #fff6fa;
 }
 
-.circles__right-row--1 .marquee-svg {
+.circles-right-row-1 .marquee-svg {
   height: 50%;
   margin-right: -0.11rem;
 }
 
-.circles__right-row--2 {
+.circles-right-row-2 {
   height: 22%;
   background: #ffd9e8;
 }
 
-.circles__right-row--2 .svg-marquee {
+.circles-right-row-2 .svg-marquee {
   height: 55%;
 }
-.circles__right-row--2 .marquee-svg {
+.circles-right-row-2 .marquee-svg {
   margin-right: -0.22rem;
 }
 
-.circles__right-row--3 {
+.circles-right-row-3 {
   height: 22%;
   background: #ff82b4;
 }
 
-.circles__right-row--3 .svg-marquee {
+.circles-right-row-3 .svg-marquee {
   height: 65%;
 }
 
-.circles__right-row--3 .marquee-svg {
+.circles-right-row-3 .marquee-svg {
   margin-right: -0.85rem;
 }
 
-.circles__right-row .svg-marquee {
+.circles-right-row .svg-marquee {
   display: flex;
   width: max-content;
   animation: marquee-svg 15s linear infinite;
 }
 
-.circles__right-row .marquee-svg {
+.circles-right-row .marquee-svg {
   height: 100%;
   width: auto;
   flex-shrink: 0;
 }
 
-.circles__right-row:hover .svg-marquee {
+.circles-right-row:hover .svg-marquee {
   /*animation: marquee-svg 45s linear infinite;*/
   animation-play-state: paused;
 }
 
-.circles__right-row--4 {
+.circles-right-row-4 {
   height: 33%;
   background: #ff0066;
   font-size: 3.8vw;
@@ -323,14 +438,13 @@ body {
   color: #ffffff;
 }
 
-.circles__right-row--4_text {
+.circles-right-row-4-text {
   margin-bottom: 0.5em;
   font-family: "EpilepsySansBold";
   font-weight: bold;
   font-style: normal;
   animation: text-shake 0.6s infinite ease-in-out;
 }
-
 /* <!-- касеты --> */
 .screen3 {
   display: flex;
@@ -344,8 +458,6 @@ body {
   justify-content: space-between;
   /* padding: 20px; */
 }
-
-/* Общий стиль карточки */
 .card {
   position: relative;
   flex: 1;
@@ -354,17 +466,12 @@ body {
   justify-content: center;
   align-items: center;
 }
-
-/* Фоны */
 .card.green {
-  background: #d9ffd9;
+  background: #ffffff;
 }
-
 .card.pink {
   background: #ffd6e7;
 }
-
-/* Цифры сверху */
 .label {
   position: absolute;
   left: 0;
@@ -376,23 +483,20 @@ body {
   font-style: normal;
   color: #000;
 }
-
 .green .label {
   background: #32ff32;
 }
-
 .pink .label {
   background: #ff2b78;
   color: #fff;
 }
 
-/* Картинка */
 .card img {
   max-width: 100%;
   height: auto;
 }
 
-/* КРУГИ */
+/* Круги в касете */
 .wheel {
   position: absolute;
   width: 13vw;
@@ -402,9 +506,1419 @@ body {
   transform-origin: center;
   z-index: 4;
 }
-
-/* Позиции кругов — подгоняешь под картинку */
 .wheel {
   top: 5.49vw;
   left: 4.99vw;
+}
+
+/* Бегущая строка "пробуди связь" */
+#marquee {
+  background-color: #d2ffd3;
+}
+
+.stroka1-3 {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.stroka1-3 p {
+  display: inline-flex;
+  font-family: "EpilepsySansBold";
+  font-size: 4vw;
+  font-weight: bold;
+  font-style: normal;
+  color: #00da04;
+  animation: marquee 6s infinite linear;
+  width: 230%;
+}
+.stroka1-3 p:hover {
+  animation-play-state: paused;
+}
+
+/* Радио */
+.radio-container {
+  display: flex;
+  width: 100%;
+}
+
+.radio-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.radio-icons {
+  position: relative;
+  width: 80%;
+  aspect-ratio: 1 / 1;
+}
+
+.radio-icon-koleso {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 75%;
+  height: 75%;
+  object-fit: contain;
+
+  animation: radio-rotation 4s ease-in-out infinite;
+  transform-origin: center center;
+}
+
+.radio-right .radio-icon-koleso {
+  animation: radio-rotation-mirror 4s ease-in-out infinite;
+}
+
+.radio-icon-metriki {
+  position: absolute;
+  top: 17%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 75%;
+  height: 75%;
+  object-fit: contain;
+}
+
+.radio-left {
+  flex: 0 0 25%;
+}
+
+.radio-right {
+  flex: 0 0 25%;
+}
+
+.radio-middle {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+.radio-row {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1vw;
+  width: 100%;
+}
+
+.radio-row-1 .radio-port,
+.radio-row-2 .radio-port {
+  width: 100%;
+  height: 100%;
+}
+
+.radio-rect {
+  background-color: #02ff07;
+  flex: 0 0 calc(85% / 6);
+  height: 2vw;
+  width: 8.3vw;
+  margin-top: 1vw;
+}
+
+/* Волна */
+.line1 {
+  width: 100%;
+  height: 1vw;
+  background-color: #ffbfd9;
+}
+.volna {
+  position: relative;
+  width: 100%;
+  height: 34vw;
+  background-color: #ff0066;
+}
+.volna p {
+  position: absolute;
+  font-family: "EpilepsySansBold";
+  font-weight: bold;
+  font-style: normal;
+  font-size: 2vw;
+  rotate: 270deg;
+  color: #ffffff;
+}
+
+/* Буквы */
+.n1-1 {
+  left: 1vw;
+  top: 1vw;
+  animation: stroka4-1 4s infinite linear;
+}
+.o1-1-1 {
+  left: 1vw;
+  top: 7vw;
+  animation: stroka4-2 4s infinite linear;
+}
+.i1-1 {
+  left: 1.3vw;
+  top: 11.5vw;
+  animation: stroka4-3 4s infinite linear;
+}
+.r1-1 {
+  left: 1vw;
+  top: 16vw;
+}
+.l1-1 {
+  left: 1.3vw;
+  top: 20.5vw;
+  animation: stroka4-4 4s infinite linear;
+}
+.o2-1-1 {
+  left: 1vw;
+  top: 25vw;
+  animation: stroka4-5 4s infinite linear;
+}
+.v1-1 {
+  left: 1vw;
+  top: 31vw;
+  animation: stroka4-6 4s infinite linear;
+}
+.n2-2 {
+  left: 4vw;
+  top: 1vw;
+  animation: stroka5-1 4s infinite linear;
+}
+.o1-2-2 {
+  left: 4vw;
+  top: 7vw;
+  animation: stroka5-2 4s infinite linear;
+}
+.i2-2 {
+  left: 4.3vw;
+  top: 11.5vw;
+  animation: stroka5-3 4s infinite linear;
+}
+.r2-2 {
+  left: 4vw;
+  top: 16vw;
+}
+.l2-2 {
+  left: 4.3vw;
+  top: 20.5vw;
+  animation: stroka5-4 4s infinite linear;
+}
+.o2-2-2 {
+  left: 4vw;
+  top: 25vw;
+  animation: stroka5-5 4s infinite linear;
+}
+.v2-2 {
+  left: 4vw;
+  top: 31vw;
+  animation: stroka5-6 4s infinite linear;
+}
+.n3-3 {
+  left: 7vw;
+  top: 1vw;
+  animation: stroka6-1 4s infinite linear;
+}
+.o1-3-3 {
+  left: 7vw;
+  top: 7vw;
+  animation: stroka6-2 4s infinite linear;
+}
+.i3-3 {
+  left: 7.3vw;
+  top: 11.5vw;
+  animation: stroka6-3 4s infinite linear;
+}
+.r3-3 {
+  left: 7vw;
+  top: 16vw;
+}
+.l3-3 {
+  left: 7.3vw;
+  top: 20.5vw;
+  animation: stroka6-4 4s infinite linear;
+}
+.o2-3-3 {
+  left: 7vw;
+  top: 25vw;
+  animation: stroka6-5 4s infinite linear;
+}
+.v3-3 {
+  left: 7vw;
+  top: 31vw;
+  animation: stroka6-6 4s infinite linear;
+}
+.n4-4 {
+  left: 10vw;
+  top: 1vw;
+  animation: stroka5-1 4s infinite linear;
+}
+.o1-4-4 {
+  left: 10vw;
+  top: 7vw;
+  animation: stroka5-2 4s infinite linear;
+}
+.i4-4 {
+  left: 10.3vw;
+  top: 11.5vw;
+  animation: stroka5-3 4s infinite linear;
+}
+.r4-4 {
+  left: 10vw;
+  top: 16vw;
+}
+.l4-4 {
+  left: 10.3vw;
+  top: 20.5vw;
+  animation: stroka5-4 4s infinite linear;
+}
+.o2-4-4 {
+  left: 10vw;
+  top: 25vw;
+  animation: stroka5-5 4s infinite linear;
+}
+.v4-4 {
+  left: 10vw;
+  top: 31vw;
+  animation: stroka5-6 4s infinite linear;
+}
+.n5-5 {
+  left: 13vw;
+  top: 1vw;
+  animation: stroka4-1 4s infinite linear;
+}
+.o1-5-5 {
+  left: 13vw;
+  top: 7vw;
+  animation: stroka4-2 4s infinite linear;
+}
+.i5-5 {
+  left: 13.3vw;
+  top: 11.5vw;
+  animation: stroka4-3 4s infinite linear;
+}
+.r5-5 {
+  left: 13vw;
+  top: 16vw;
+}
+.l5-5 {
+  left: 13.3vw;
+  top: 20.5vw;
+  animation: stroka4-4 4s infinite linear;
+}
+.o2-5-5 {
+  left: 13vw;
+  top: 25vw;
+  animation: stroka4-5 4s infinite linear;
+}
+.v5-5 {
+  left: 13vw;
+  top: 31vw;
+  animation: stroka4-6 4s infinite linear;
+}
+.n6-6 {
+  left: 16vw;
+  top: 1vw;
+  animation: stroka3-1 4s infinite linear;
+}
+.o1-6-6 {
+  left: 16vw;
+  top: 7vw;
+  animation: stroka3-2 4s infinite linear;
+}
+.i6-6 {
+  left: 16.3vw;
+  top: 11.5vw;
+  animation: stroka3-3 4s infinite linear;
+}
+.r6-6 {
+  left: 16vw;
+  top: 16vw;
+}
+.l6-6 {
+  left: 16.3vw;
+  top: 20.5vw;
+  animation: stroka3-4 4s infinite linear;
+}
+.o2-6-6 {
+  left: 16vw;
+  top: 25vw;
+  animation: stroka3-5 4s infinite linear;
+}
+.v6-6 {
+  left: 16vw;
+  top: 31vw;
+  animation: stroka3-6 4s infinite linear;
+}
+.n7-7 {
+  left: 19vw;
+  top: 1vw;
+  animation: stroka2-1 4s infinite linear;
+}
+.o1-7-7 {
+  left: 19vw;
+  top: 7vw;
+  animation: stroka2-2 4s infinite linear;
+}
+.i7-7 {
+  left: 19.3vw;
+  top: 11.5vw;
+  animation: stroka2-3 4s infinite linear;
+}
+.r7-7 {
+  left: 19vw;
+  top: 16vw;
+}
+.l7-7 {
+  left: 19.3vw;
+  top: 20.5vw;
+  animation: stroka2-4 4s infinite linear;
+}
+.o2-7-7 {
+  left: 19vw;
+  top: 25vw;
+  animation: stroka2-5 4s infinite linear;
+}
+.v7-7 {
+  left: 19vw;
+  top: 31vw;
+  animation: stroka2-6 4s infinite linear;
+}
+.n8-8 {
+  left: 22vw;
+  top: 1vw;
+  animation: stroka1-1 4s infinite linear;
+}
+.o1-8-8 {
+  left: 22vw;
+  top: 7vw;
+}
+.i8-8 {
+  left: 22.3vw;
+  top: 11.5vw;
+}
+.r8-8 {
+  left: 22vw;
+  top: 16vw;
+}
+.l8-8 {
+  left: 22.3vw;
+  top: 20.5vw;
+}
+.o2-8-8 {
+  left: 22vw;
+  top: 25vw;
+}
+.v8-8 {
+  left: 22vw;
+  top: 31vw;
+  animation: stroka1-6 4s infinite linear;
+}
+.n9-9 {
+  left: 25vw;
+  top: 1vw;
+  animation: stroka2-1 4s infinite linear;
+}
+.o1-9-9 {
+  left: 25vw;
+  top: 7vw;
+  animation: stroka2-2 4s infinite linear;
+}
+.i9-9 {
+  left: 25.3vw;
+  top: 11.5vw;
+  animation: stroka2-3 4s infinite linear;
+}
+.r9-9 {
+  left: 25vw;
+  top: 16vw;
+}
+.l9-9 {
+  left: 25.3vw;
+  top: 20.5vw;
+  animation: stroka2-4 4s infinite linear;
+}
+.o2-9-9 {
+  left: 25vw;
+  top: 25vw;
+  animation: stroka2-5 4s infinite linear;
+}
+.v9-9 {
+  left: 25vw;
+  top: 31vw;
+  animation: stroka2-6 4s infinite linear;
+}
+.n10-10 {
+  left: 28vw;
+  top: 1vw;
+  animation: stroka3-1 4s infinite linear;
+}
+.o1-10-10 {
+  left: 28vw;
+  top: 7vw;
+  animation: stroka3-2 4s infinite linear;
+}
+.i10-10 {
+  left: 28.3vw;
+  top: 11.5vw;
+  animation: stroka3-3 4s infinite linear;
+}
+.r10-10 {
+  left: 28vw;
+  top: 16vw;
+}
+.l10-10 {
+  left: 28.3vw;
+  top: 20.5vw;
+  animation: stroka3-4 4s infinite linear;
+}
+.o2-10-10 {
+  left: 28vw;
+  top: 25vw;
+  animation: stroka3-5 4s infinite linear;
+}
+.v10-10 {
+  left: 28vw;
+  top: 31vw;
+  animation: stroka3-6 4s infinite linear;
+}
+.n11-11 {
+  left: 31vw;
+  top: 1vw;
+  animation: stroka4-1 4s infinite linear;
+}
+.o1-11-11 {
+  left: 31vw;
+  top: 7vw;
+  animation: stroka4-2 4s infinite linear;
+}
+.i11-11 {
+  left: 31.3vw;
+  top: 11.5vw;
+  animation: stroka4-3 4s infinite linear;
+}
+.r11-11 {
+  left: 31vw;
+  top: 16vw;
+}
+.l11-11 {
+  left: 31.3vw;
+  top: 20.5vw;
+  animation: stroka4-4 4s infinite linear;
+}
+.o2-11-11 {
+  left: 31vw;
+  top: 25vw;
+  animation: stroka4-5 4s infinite linear;
+}
+.v11-11 {
+  left: 31vw;
+  top: 31vw;
+  animation: stroka4-6 4s infinite linear;
+}
+.n12-12 {
+  left: 34vw;
+  top: 1vw;
+  animation: stroka5-1 4s infinite linear;
+}
+.o1-12-12 {
+  left: 34vw;
+  top: 7vw;
+  animation: stroka5-2 4s infinite linear;
+}
+.i12-12 {
+  left: 34.3vw;
+  top: 11.5vw;
+  animation: stroka5-3 4s infinite linear;
+}
+.r12-12 {
+  left: 34vw;
+  top: 16vw;
+}
+.l12-12 {
+  left: 34.3vw;
+  top: 20.5vw;
+  animation: stroka5-4 4s infinite linear;
+}
+.o2-12-12 {
+  left: 34vw;
+  top: 25vw;
+  animation: stroka5-5 4s infinite linear;
+}
+.v12-12 {
+  left: 34vw;
+  top: 31vw;
+  animation: stroka5-6 4s infinite linear;
+}
+.n13-13 {
+  left: 37vw;
+  top: 1vw;
+  animation: stroka6-1 4s infinite linear;
+}
+.o1-13-13 {
+  left: 37vw;
+  top: 7vw;
+  animation: stroka6-2 4s infinite linear;
+}
+.i13-13 {
+  left: 37.3vw;
+  top: 11.5vw;
+  animation: stroka6-3 4s infinite linear;
+}
+.r13-13 {
+  left: 37vw;
+  top: 16vw;
+}
+.l13-13 {
+  left: 37.3vw;
+  top: 20.5vw;
+  animation: stroka6-4 4s infinite linear;
+}
+.o2-13-13 {
+  left: 37vw;
+  top: 25vw;
+  animation: stroka6-5 4s infinite linear;
+}
+.v13-13 {
+  left: 37vw;
+  top: 31vw;
+  animation: stroka6-6 4s infinite linear;
+}
+.n14-14 {
+  left: 40vw;
+  top: 1vw;
+  animation: stroka5-1 4s infinite linear;
+}
+.o1-14-14 {
+  left: 40vw;
+  top: 7vw;
+  animation: stroka5-2 4s infinite linear;
+}
+.i14-14 {
+  left: 40.3vw;
+  top: 11.5vw;
+  animation: stroka5-3 4s infinite linear;
+}
+.r14-14 {
+  left: 40vw;
+  top: 16vw;
+}
+.l14-14 {
+  left: 40.3vw;
+  top: 20.5vw;
+  animation: stroka5-4 4s infinite linear;
+}
+.o2-14-14 {
+  left: 40vw;
+  top: 25vw;
+  animation: stroka5-5 4s infinite linear;
+}
+.v14-14 {
+  left: 40vw;
+  top: 31vw;
+  animation: stroka5-6 4s infinite linear;
+}
+.n15-15 {
+  left: 43vw;
+  top: 1vw;
+  animation: stroka4-1 4s infinite linear;
+}
+.o1-15-15 {
+  left: 43vw;
+  top: 7vw;
+  animation: stroka4-2 4s infinite linear;
+}
+.i15-15 {
+  left: 43.3vw;
+  top: 11.5vw;
+  animation: stroka4-3 4s infinite linear;
+}
+.r15-15 {
+  left: 43vw;
+  top: 16vw;
+}
+.l15-15 {
+  left: 43.3vw;
+  top: 20.5vw;
+  animation: stroka4-4 4s infinite linear;
+}
+.o2-15-15 {
+  left: 43vw;
+  top: 25vw;
+  animation: stroka4-5 4s infinite linear;
+}
+.v15-15 {
+  left: 43vw;
+  top: 31vw;
+  animation: stroka4-6 4s infinite linear;
+}
+.n16-16 {
+  left: 46vw;
+  top: 1vw;
+  animation: stroka3-1 4s infinite linear;
+}
+.o1-16-16 {
+  left: 46vw;
+  top: 7vw;
+  animation: stroka3-2 4s infinite linear;
+}
+.i16-16 {
+  left: 46.3vw;
+  top: 11.5vw;
+  animation: stroka3-3 4s infinite linear;
+}
+.r16-16 {
+  left: 46vw;
+  top: 16vw;
+}
+.l16-16 {
+  left: 46.6vw;
+  top: 20.5vw;
+  animation: stroka3-4 4s infinite linear;
+}
+.o2-16-16 {
+  left: 46vw;
+  top: 25vw;
+  animation: stroka3-5 4s infinite linear;
+}
+.v16-16 {
+  left: 46vw;
+  top: 31vw;
+  animation: stroka3-6 4s infinite linear;
+}
+.n17-17 {
+  left: 49vw;
+  top: 1vw;
+  animation: stroka2-1 4s infinite linear;
+}
+.o1-17-17 {
+  left: 49vw;
+  top: 7vw;
+  animation: stroka2-2 4s infinite linear;
+}
+.i17-17 {
+  left: 49.3vw;
+  top: 11.5vw;
+  animation: stroka2-3 4s infinite linear;
+}
+.r17-17 {
+  left: 49vw;
+  top: 16vw;
+}
+.l17-17 {
+  left: 49.3vw;
+  top: 20.5vw;
+  animation: stroka2-4 4s infinite linear;
+}
+.o2-17-17 {
+  left: 49vw;
+  top: 25vw;
+  animation: stroka2-5 4s infinite linear;
+}
+.v17-17 {
+  left: 49vw;
+  top: 31vw;
+  animation: stroka2-6 4s infinite linear;
+}
+.n18-18 {
+  left: 52vw;
+  top: 1vw;
+  animation: stroka3-1 4s infinite linear;
+}
+.o1-18-18 {
+  left: 52vw;
+  top: 7vw;
+  animation: stroka3-2 4s infinite linear;
+}
+.i18-18 {
+  left: 52.3vw;
+  top: 11.5vw;
+  animation: stroka3-3 4s infinite linear;
+}
+.r18-18 {
+  left: 52vw;
+  top: 16vw;
+}
+.l18-18 {
+  left: 52.3vw;
+  top: 20.5vw;
+  animation: stroka3-4 4s infinite linear;
+}
+.o2-18-18 {
+  left: 52vw;
+  top: 25vw;
+  animation: stroka3-5 4s infinite linear;
+}
+.v18-18 {
+  left: 52vw;
+  top: 31vw;
+  animation: stroka3-6 4s infinite linear;
+}
+.n19-19 {
+  left: 55vw;
+  top: 1vw;
+  animation: stroka4-1 4s infinite linear;
+}
+.o1-19-19 {
+  left: 55vw;
+  top: 7vw;
+  animation: stroka4-2 4s infinite linear;
+}
+.i19-19 {
+  left: 55.3vw;
+  top: 11.5vw;
+  animation: stroka4-3 4s infinite linear;
+}
+.r19-19 {
+  left: 55vw;
+  top: 16vw;
+}
+.l19-19 {
+  left: 55.3vw;
+  top: 20.5vw;
+  animation: stroka4-4 4s infinite linear;
+}
+.o2-19-19 {
+  left: 55vw;
+  top: 25vw;
+  animation: stroka4-5 4s infinite linear;
+}
+.v19-19 {
+  left: 55vw;
+  top: 31vw;
+  animation: stroka4-6 4s infinite linear;
+}
+.n20-20 {
+  left: 58vw;
+  top: 1vw;
+  animation: stroka5-1 4s infinite linear;
+}
+.o1-20-20 {
+  left: 58vw;
+  top: 7vw;
+  animation: stroka5-2 4s infinite linear;
+}
+.i20-20 {
+  left: 58.3vw;
+  top: 11.5vw;
+  animation: stroka5-3 4s infinite linear;
+}
+.r20-20 {
+  left: 58vw;
+  top: 16vw;
+}
+.l20-20 {
+  left: 58.3vw;
+  top: 20.5vw;
+  animation: stroka5-4 4s infinite linear;
+}
+.o2-20-20 {
+  left: 58vw;
+  top: 25vw;
+  animation: stroka5-5 4s infinite linear;
+}
+.v20-20 {
+  left: 58vw;
+  top: 31vw;
+  animation: stroka5-6 4s infinite linear;
+}
+.n21-21 {
+  left: 61vw;
+  top: 1vw;
+  animation: stroka6-1 4s infinite linear;
+}
+.o1-21-21 {
+  left: 61vw;
+  top: 7vw;
+  animation: stroka6-2 4s infinite linear;
+}
+.i21-21 {
+  left: 61.3vw;
+  top: 11.5vw;
+  animation: stroka6-3 4s infinite linear;
+}
+.r21-21 {
+  left: 61vw;
+  top: 16vw;
+}
+.l21-21 {
+  left: 61.3vw;
+  top: 20.5vw;
+  animation: stroka6-4 4s infinite linear;
+}
+.o2-21-21 {
+  left: 61vw;
+  top: 25vw;
+  animation: stroka6-5 4s infinite linear;
+}
+.v21-21 {
+  left: 61vw;
+  top: 31vw;
+  animation: stroka6-6 4s infinite linear;
+}
+.n22-22 {
+  left: 64vw;
+  top: 1vw;
+  animation: stroka5-1 4s infinite linear;
+}
+.o1-22-22 {
+  left: 64vw;
+  top: 7vw;
+  animation: stroka5-2 4s infinite linear;
+}
+.i22-22 {
+  left: 64.3vw;
+  top: 11.5vw;
+  animation: stroka5-3 4s infinite linear;
+}
+.r22-22 {
+  left: 64vw;
+  top: 16vw;
+}
+.l22-22 {
+  left: 64.3vw;
+  top: 20.5vw;
+  animation: stroka5-4 4s infinite linear;
+}
+.o2-22-22 {
+  left: 64vw;
+  top: 25vw;
+  animation: stroka5-5 4s infinite linear;
+}
+.v22-22 {
+  left: 64vw;
+  top: 31vw;
+  animation: stroka5-6 4s infinite linear;
+}
+.n23-23 {
+  left: 67vw;
+  top: 1vw;
+  animation: stroka4-1 4s infinite linear;
+}
+.o1-23-23 {
+  left: 67vw;
+  top: 7vw;
+  animation: stroka4-2 4s infinite linear;
+}
+.i23-23 {
+  left: 67.3vw;
+  top: 11.5vw;
+  animation: stroka4-3 4s infinite linear;
+}
+.r23-23 {
+  left: 67vw;
+  top: 16vw;
+}
+.l23-23 {
+  left: 67.3vw;
+  top: 20.5vw;
+  animation: stroka4-4 4s infinite linear;
+}
+.o2-23-23 {
+  left: 67vw;
+  top: 25vw;
+  animation: stroka4-5 4s infinite linear;
+}
+.v23-23 {
+  left: 67vw;
+  top: 31vw;
+  animation: stroka4-6 4s infinite linear;
+}
+.n24-24 {
+  left: 70vw;
+  top: 1vw;
+  animation: stroka3-1 4s infinite linear;
+}
+.o1-24-24 {
+  left: 70vw;
+  top: 7vw;
+  animation: stroka3-2 4s infinite linear;
+}
+.i24-24 {
+  left: 70.3vw;
+  top: 11.5vw;
+  animation: stroka3-3 4s infinite linear;
+}
+.r24-24 {
+  left: 70vw;
+  top: 16vw;
+}
+.l24-24 {
+  left: 70.3vw;
+  top: 20.5vw;
+  animation: stroka3-4 4s infinite linear;
+}
+.o2-24-24 {
+  left: 70vw;
+  top: 25vw;
+  animation: stroka3-5 4s infinite linear;
+}
+.v24-24 {
+  left: 70vw;
+  top: 31vw;
+  animation: stroka3-6 4s infinite linear;
+}
+.n25-25 {
+  left: 73vw;
+  top: 1vw;
+  animation: stroka2-1 4s infinite linear;
+}
+.o1-25-25 {
+  left: 73vw;
+  top: 7vw;
+  animation: stroka2-2 4s infinite linear;
+}
+.i25-25 {
+  left: 73.3vw;
+  top: 11.5vw;
+  animation: stroka2-3 4s infinite linear;
+}
+.r25-25 {
+  left: 73vw;
+  top: 16vw;
+}
+.l25-25 {
+  left: 73.3vw;
+  top: 20.5vw;
+  animation: stroka2-4 4s infinite linear;
+}
+.o2-25-25 {
+  left: 73vw;
+  top: 25vw;
+  animation: stroka2-5 4s infinite linear;
+}
+.v25-25 {
+  left: 73vw;
+  top: 31vw;
+  animation: stroka2-6 4s infinite linear;
+}
+.n26-26 {
+  left: 76vw;
+  top: 1vw;
+  animation: stroka1-1 4s infinite linear;
+}
+.o1-26-26 {
+  left: 76vw;
+  top: 7vw;
+}
+.i26-26 {
+  left: 76.3vw;
+  top: 11.5vw;
+}
+.r26-26 {
+  left: 76vw;
+  top: 16vw;
+}
+.l26-26 {
+  left: 76.3vw;
+  top: 20.5vw;
+}
+.o2-26-26 {
+  left: 76vw;
+  top: 25vw;
+}
+.v26-26 {
+  left: 76vw;
+  top: 31vw;
+  animation: stroka1-6 4s infinite linear;
+}
+.n27-27 {
+  left: 79vw;
+  top: 1vw;
+  animation: stroka2-1 4s infinite linear;
+}
+.o1-27-27 {
+  left: 79vw;
+  top: 7vw;
+  animation: stroka2-2 4s infinite linear;
+}
+.i27-27 {
+  left: 79.3vw;
+  top: 11.5vw;
+  animation: stroka2-3 4s infinite linear;
+}
+.r27-27 {
+  left: 79vw;
+  top: 16vw;
+}
+.l27-27 {
+  left: 79.3vw;
+  top: 20.5vw;
+  animation: stroka2-4 4s infinite linear;
+}
+.o2-27-27 {
+  left: 79vw;
+  top: 25vw;
+  animation: stroka2-5 4s infinite linear;
+}
+.v27-27 {
+  left: 79vw;
+  top: 31vw;
+  animation: stroka2-6 4s infinite linear;
+}
+.n28-28 {
+  left: 82vw;
+  top: 1vw;
+  animation: stroka3-1 4s infinite linear;
+}
+.o1-28-28 {
+  left: 82vw;
+  top: 7vw;
+  animation: stroka3-2 4s infinite linear;
+}
+.i28-28 {
+  left: 82.3vw;
+  top: 11.5vw;
+  animation: stroka3-3 4s infinite linear;
+}
+.r28-28 {
+  left: 82vw;
+  top: 16vw;
+}
+.l28-28 {
+  left: 82.3vw;
+  top: 20.5vw;
+  animation: stroka3-4 4s infinite linear;
+}
+.o2-28-28 {
+  left: 82vw;
+  top: 25vw;
+  animation: stroka3-5 4s infinite linear;
+}
+.v28-28 {
+  left: 82vw;
+  top: 31vw;
+  animation: stroka3-6 4s infinite linear;
+}
+.n29-29 {
+  left: 85vw;
+  top: 1vw;
+  animation: stroka4-1 4s infinite linear;
+}
+.o1-29-29 {
+  left: 85vw;
+  top: 7vw;
+  animation: stroka4-2 4s infinite linear;
+}
+.i29-29 {
+  left: 85.3vw;
+  top: 11.5vw;
+  animation: stroka4-3 4s infinite linear;
+}
+.r29-29 {
+  left: 85vw;
+  top: 16vw;
+}
+.l29-29 {
+  left: 85.3vw;
+  top: 20.5vw;
+  animation: stroka4-4 4s infinite linear;
+}
+.o2-29-29 {
+  left: 85vw;
+  top: 25vw;
+  animation: stroka4-5 4s infinite linear;
+}
+.v29-29 {
+  left: 85vw;
+  top: 31vw;
+  animation: stroka4-6 4s infinite linear;
+}
+.n30-30 {
+  left: 88vw;
+  top: 1vw;
+  animation: stroka5-1 4s infinite linear;
+}
+.o1-30-30 {
+  left: 88vw;
+  top: 7vw;
+  animation: stroka5-2 4s infinite linear;
+}
+.i30-30 {
+  left: 88.3vw;
+  top: 11.5vw;
+  animation: stroka5-3 4s infinite linear;
+}
+.r30-30 {
+  left: 88vw;
+  top: 16vw;
+}
+.l30-30 {
+  left: 88.3vw;
+  top: 20.5vw;
+  animation: stroka5-4 4s infinite linear;
+}
+.o2-30-30 {
+  left: 88vw;
+  top: 25vw;
+  animation: stroka5-5 4s infinite linear;
+}
+.v30-30 {
+  left: 88vw;
+  top: 31vw;
+  animation: stroka5-6 4s infinite linear;
+}
+.n31-31 {
+  left: 91vw;
+  top: 1vw;
+  animation: stroka6-1 4s infinite linear;
+}
+.o1-31-31 {
+  left: 91vw;
+  top: 7vw;
+  animation: stroka6-2 4s infinite linear;
+}
+.i31-31 {
+  left: 91.3vw;
+  top: 11.5vw;
+  animation: stroka6-3 4s infinite linear;
+}
+.r31-31 {
+  left: 91vw;
+  top: 16vw;
+}
+.l31-31 {
+  left: 91.3vw;
+  top: 20.5vw;
+  animation: stroka6-4 4s infinite linear;
+}
+.o2-31-31 {
+  left: 91vw;
+  top: 25vw;
+  animation: stroka6-5 4s infinite linear;
+}
+.v31-31 {
+  left: 91vw;
+  top: 31vw;
+  animation: stroka6-6 4s infinite linear;
+}
+.n32-32 {
+  left: 94vw;
+  top: 1vw;
+  animation: stroka5-1 4s infinite linear;
+}
+.o1-32-32 {
+  left: 94vw;
+  top: 7vw;
+  animation: stroka5-2 4s infinite linear;
+}
+.i32-32 {
+  left: 94.3vw;
+  top: 11.5vw;
+  animation: stroka5-3 4s infinite linear;
+}
+.r32-32 {
+  left: 94vw;
+  top: 16vw;
+}
+.l32-32 {
+  left: 94.3vw;
+  top: 20.5vw;
+  animation: stroka5-4 4s infinite linear;
+}
+.o2-32-32 {
+  left: 94vw;
+  top: 25vw;
+  animation: stroka5-5 4s infinite linear;
+}
+.v32-32 {
+  left: 94vw;
+  top: 31vw;
+  animation: stroka5-6 4s infinite linear;
+}
+.n33-33 {
+  left: 97vw;
+  top: 1vw;
+  animation: stroka4-1 4s infinite linear;
+}
+.o1-33-33 {
+  left: 97vw;
+  top: 7vw;
+  animation: stroka4-2 4s infinite linear;
+}
+.i33-33 {
+  left: 97.3vw;
+  top: 11.5vw;
+  animation: stroka4-3 4s infinite linear;
+}
+.r33-33 {
+  left: 97vw;
+  top: 16vw;
+}
+.l33-33 {
+  left: 97.3vw;
+  top: 20.5vw;
+  animation: stroka4-4 4s infinite linear;
+}
+.o2-33-33 {
+  left: 97vw;
+  top: 25vw;
+  animation: stroka4-5 4s infinite linear;
+}
+.v33-33 {
+  left: 97vw;
+  top: 31vw;
+  animation: stroka4-6 4s infinite linear;
+}
+.line2 {
+  width: 100%;
+  height: 1vw;
+  background-color: #ffbfd9;
+}
+
+/* Бегущая строка "пробуди связь" */
+#marquee1 {
+  background-color: #d2ffd3;
+}
+.stroka1-4 {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.stroka1-4 p {
+  display: inline-flex;
+  font-family: "EpilepsySansBold";
+  font-size: 4vw;
+  font-weight: bold;
+  font-style: normal;
+  color: #00da04;
+  animation: marquee1 6s infinite linear;
+  width: 230%;
+}
+.stroka1-4 p:hover {
+  animation-play-state: paused;
+}
+
+/* Сообщения в самом конце */
+.soo {
+  position: relative;
+  width: 100%;
+  height: 25vw;
+  background-color: #ffffff;
+  aspect-ratio: 2 / 1;
+  min-height: 80px;
+}
+.soo img {
+  height: auto;
+}
+.soo1 {
+  position: absolute;
+  top: 5%;
+  left: 0.5%;
+}
+.soo1 img {
+  width: 25vw;
+}
+.soo2 {
+  position: absolute;
+  top: 40%;
+  left: 1%;
+}
+.soo2 img {
+  width: 20vw;
+}
+.soo3 {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+}
+.soo3 img {
+  width: 23vw;
+}
+.soo4 {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+}
+.soo4 img {
+  width: 12vw;
+}
+.soo5 {
+  position: absolute;
+  top: 3%;
+  left: 33%;
+}
+.soo5 img {
+  width: 20vw;
+}
+.soo6 {
+  position: absolute;
+  top: 33%;
+  left: 40%;
+}
+.soo6 img {
+  width: 20vw;
+}
+.soo7 {
+  position: absolute;
+  top: 45%;
+  left: 63%;
+}
+.soo7 img {
+  width: 22vw;
+}
+.soo8 {
+  position: absolute;
+  top: 20%;
+  left: 60%;
+}
+.soo8 img {
+  width: 13vw;
+}
+.soo9 {
+  position: absolute;
+  top: 5%;
+  left: 75%;
+}
+.soo9 img {
+  width: 19vw;
+}
+.soo10 {
+  position: absolute;
+  top: 30%;
+  left: 85%;
+}
+.soo10 img {
+  width: 14vw;
+}
+.soo11 {
+  position: absolute;
+  top: 65%;
+  left: 80%;
+}
+.soo11 img {
+  width: 14vw;
+}
+.soo img:hover {
+  scale: 1.1;
+}
+
+/* Подвал */
+.podval {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 12px;
+}
+.podval-img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.podval-text {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5vw;
+  font-family: "EpilepsySansBold";
+  font-weight: bold;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 3vw;
+}
+.podval {
+  height: 12vw;
 }

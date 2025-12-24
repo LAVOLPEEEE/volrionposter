@@ -4,18 +4,51 @@
 } */
 
 @media (max-width: 450px) {
-  .circles__container {
+  .circles-container {
     flex-direction: column-reverse;
   }
 
-  .circles__block {
+  .circles-block {
     flex: 1 1 100%;
     height: auto;
     width: 100%;
   }
 
-  .circles__right-row--4_text {
+  .circles-right-row-4-text {
     font-size: 7vw;
     margin-bottom: 0.1em;
+  }
+
+  .radio-container {
+    flex-direction: column;
+  }
+
+  .radio-left,
+  .radio-middle,
+  .radio-right {
+    flex: 0 0 100%;
+    width: 100%;
+  }
+
+  .radio-middle {
+    padding-bottom: 4vw;
+  }
+
+  .radio-rect {
+    height: 4vw;
+    width: 16vw;
+  }
+
+  .radio-row {
+    margin-top: 3vw;
+    width: 90%;
+  }
+
+  .wrapper {
+    flex-direction: column;
+  }
+
+  podval {
+    height: 20vw;
   }
 }

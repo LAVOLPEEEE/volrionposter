@@ -1,10 +1,10 @@
-/* спрайтовая анимация розовой строки */
+/* спрайтовая анимация розовой и зелёной строки */
 @keyframes strokagif {
   0% {
     background-position-y: 0;
   }
   20% {
-    background-position-y: -75.1\05px;
+    background-position-y: -75.1px;
   }
   60% {
     background-position-y: -149.9px;
@@ -33,7 +33,7 @@
     background-position-y: -300px;
   }
 }
-
+/* волны */
 @keyframes marquee-svg {
   0% {
     transform: translateX(0%);
@@ -42,7 +42,7 @@
     transform: translateX(-50%);
   }
 }
-
+/* строка трясётся */
 @keyframes text-shake {
   0% {
     transform: translate(0, 0);
@@ -64,5 +64,605 @@
   }
   100% {
     transform: translate(0, 0);
+  }
+}
+/* бегущая строка "пробуди связь" */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-52%);
+  }
+}
+/* поворачиваются на радио кружочки */
+@keyframes radio-rotation {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  25% {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  75% {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+
+@keyframes radio-rotation-mirror {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  25% {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+  75% {
+    transform: translate(-50%, -50%) rotate(45deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+/* 1 строка с волной */
+@keyframes stroka1-1 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-1.5vw);
+  }
+  75% {
+    transform: translateX(-1.5vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes stroka1-6 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(1.7vw);
+  }
+  75% {
+    transform: translateX(1.7vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+/* 2 строка с волной */
+@keyframes stroka2-1 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-3.7vw);
+  }
+  75% {
+    transform: translateX(-3.7vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes stroka2-2 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-1.3vw);
+  }
+  75% {
+    transform: translateX(-1.3vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes stroka2-3 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-0.8vw);
+  }
+  75% {
+    transform: translateX(-0.8vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes stroka2-4 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(0.8vw);
+  }
+  75% {
+    transform: translateX(0.8vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes stroka2-5 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(1.3vw);
+  }
+  75% {
+    transform: translateX(1.3vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes stroka2-6 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(3.7vw);
+  }
+  75% {
+    transform: translateX(3.7vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* 3 строка с волной */
+@keyframes stroka3-1 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-5.7vw);
+  }
+  75% {
+    transform: translateX(-5.7vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes stroka3-2 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-3vw);
+  }
+  75% {
+    transform: translateX(-3vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes stroka3-3 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-1.6vw);
+  }
+  75% {
+    transform: translateX(-1.6vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes stroka3-4 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(1.6vw);
+  }
+  75% {
+    transform: translateX(1.6vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes stroka3-5 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(3vw);
+  }
+  75% {
+    transform: translateX(3vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes stroka3-6 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5.5vw);
+  }
+  75% {
+    transform: translateX(5.5vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+/* 4 строка с волной */
+@keyframes stroka4-1 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-7.5vw);
+  }
+  75% {
+    transform: translateX(-7.5vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes stroka4-2 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-4vw);
+  }
+  75% {
+    transform: translateX(-4vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes stroka4-3 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-2vw);
+  }
+  75% {
+    transform: translateX(-2vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes stroka4-4 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(2vw);
+  }
+  75% {
+    transform: translateX(2vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes stroka4-5 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(4vw);
+  }
+  75% {
+    transform: translateX(4vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes stroka4-6 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(7.5vw);
+  }
+  75% {
+    transform: translateX(7.5vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* 5 строка с волной */
+@keyframes stroka5-1 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-9vw);
+  }
+  75% {
+    transform: translateX(-9vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes stroka5-2 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-5vw);
+  }
+  75% {
+    transform: translateX(-5vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes stroka5-3 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-2.5vw);
+  }
+  75% {
+    transform: translateX(-2.5vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes stroka5-4 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(2.5vw);
+  }
+  75% {
+    transform: translateX(2.5vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes stroka5-5 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5vw);
+  }
+  75% {
+    transform: translateX(5vw);
+  }
+  100% {
+    transform: translateX(5.5);
+  }
+}
+@keyframes stroka5-6 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(9vw);
+  }
+  75% {
+    transform: translateX(9vw);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+/* 6 строка с волной */
+@keyframes stroka6-1 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-10.7vw);
+  }
+  75% {
+    transform: translateX(-10.7vw);
+  }
+  100% {
+    transform: translateX(-0);
+  }
+}
+@keyframes stroka6-2 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-6.3vw);
+  }
+  75% {
+    transform: translateX(-6.3vw);
+  }
+  100% {
+    transform: translateX(-0);
+  }
+}
+@keyframes stroka6-3 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(-3.2vw);
+  }
+  75% {
+    transform: translateX(-3.2vw);
+  }
+  100% {
+    transform: translateX(-0);
+  }
+}
+@keyframes stroka6-4 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(3.2vw);
+  }
+  75% {
+    transform: translateX(3.2vw);
+  }
+  100% {
+    transform: translateX(-0);
+  }
+}
+@keyframes stroka6-5 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(6.3vw);
+  }
+  75% {
+    transform: translateX(6.3vw);
+  }
+  100% {
+    transform: translateX(-0);
+  }
+}
+@keyframes stroka6-6 {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(10.7vw);
+  }
+  75% {
+    transform: translateX(10.7vw);
+  }
+  100% {
+    transform: translateX(-0);
+  }
+}
+/* бегущая строка "первый шаг к чему‑то большему" */
+@keyframes marquee1 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-52%);
   }
 }
