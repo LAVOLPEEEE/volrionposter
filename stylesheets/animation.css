@@ -33,6 +33,44 @@
     background-position-y: -300px;
   }
 }
+
+/* круги рядом с волнами */
+@keyframes circles1 {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(0.6);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  75% {
+    transform: scale(0.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes circles2 {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(0.8);
+  }
+  75% {
+    transform: scale(0.6);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 /* волны */
 @keyframes marquee-svg {
   0% {
@@ -42,30 +80,42 @@
     transform: translateX(-50%);
   }
 }
+
+/* диски крутиться */
+@keyframes wheel {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /* строка трясётся */
 @keyframes text-shake {
   0% {
     transform: translate(0, 0);
   }
   15% {
-    transform: translate(0.05em, -0.1em);
+    transform: translate(0.05vw, -0.1vw);
   }
   30% {
-    transform: translate(-0.1em, 0.05em);
+    transform: translate(-0.1vw, 0.05vw);
   }
   45% {
-    transform: translate(0.1em, 0.1em);
+    transform: translate(0.1vw, 0.1vw);
   }
   60% {
-    transform: translate(-0.05em, -0.1em);
+    transform: translate(-0.05vw, -0.1vw);
   }
   75% {
-    transform: translate(0.1em, -0.05em);
+    transform: translate(0.1vw, -0.05vw);
   }
   100% {
     transform: translate(0, 0);
   }
 }
+
 /* бегущая строка "пробуди связь" */
 @keyframes marquee {
   0% {
@@ -664,5 +714,87 @@
   }
   100% {
     transform: translateX(-52%);
+  }
+}
+
+/* зрачёк */
+@keyframes zrachok1 {
+  0% {
+    background-position-x: 0;
+    transform: translate(0);
+  }
+  25% {
+    background-position-x: -9.37vw;
+    transform: translate(4vw, -1vw);
+  }
+  50% {
+    background-position-x: -18.74vw;
+    transform: translate(4.2vw, 1vw);
+  }
+  75% {
+    background-position-x: -28.11vw;
+    transform: translate(0.5vw, 1vw);
+  }
+}
+
+/* сообщения */
+
+@keyframes sooopacity1 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes sooopacity2 {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes color {
+  0% {
+    background-color: #02ff07;
+  }
+  40% {
+    background-color: #02ff07;
+  }
+  60% {
+    background-color: #ff0066;
+  }
+
+  100% {
+    background-color: #ff0066;
+  }
+}
+@keyframes color1 {
+  0% {
+    background-color: #00da04;
+  }
+  40% {
+    background-color: #00da04;
+  }
+  60% {
+    background-color: #ffbfd9;
+  }
+
+  100% {
+    background-color: #ffbfd9;
   }
 }

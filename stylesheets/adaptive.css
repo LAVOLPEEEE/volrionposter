@@ -51,4 +51,564 @@
   podval {
     height: 20vw;
   }
+  .card {
+    position: relative;
+    flex: 1;
+    padding: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .label {
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0.35vw 0.75vw;
+    font-size: 5.5vw;
+    font-family: "EpilepsySansBold";
+    font-weight: bold;
+    font-style: normal;
+    color: #000;
+  }
+  .wheel {
+    position: absolute;
+    width: 40vw;
+    height: 40vw;
+    transform-origin: center;
+    z-index: 4;
+    animation: wheel 3s infinite linear;
+  }
+  .wheel {
+    top: 15.3vw;
+    left: 14.2vw;
+  }
+  .stroka1-3 p {
+    display: inline-flex;
+    font-family: "EpilepsySansBold";
+    font-size: 10vw;
+    font-weight: bold;
+    font-style: normal;
+    color: #00da04;
+    animation: marquee 6s infinite linear;
+    width: 230%;
+    padding-bottom: 1vw;
+  }
+  .stroka1-4 p {
+    display: inline-flex;
+    font-family: "EpilepsySansBold";
+    padding-bottom: 1vw;
+    font-size: 10vw;
+    font-weight: bold;
+    font-style: normal;
+    color: #00da04;
+    animation: marquee1 6s infinite linear;
+    width: 230%;
+  }
+  .rectangle1 {
+    position: absolute;
+    top: 25%;
+    left: 22%;
+    animation: text-shake 0.4s infinite linear;
+    z-index: 4;
+  }
+  .rectangle1 img {
+    width: 2vw;
+  }
+  .rectangle2 {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    animation: text-shake 0.4s infinite linear;
+    z-index: 4;
+  }
+  .rectangle2 img {
+    width: 2vw;
+  }
+  .rectangle3 {
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    animation: text-shake 0.4s infinite linear;
+    z-index: 4;
+  }
+  .rectangle3 img {
+    width: 2vw;
+  }
+  .rectangle4 {
+    position: absolute;
+    top: 62%;
+    left: 2%;
+    animation: text-shake 0.4s infinite linear;
+    z-index: 4;
+  }
+  .rectangle4 img {
+    width: 2vw;
+  }
+  .rectangle5 {
+    position: absolute;
+    top: 8%;
+    left: 3%;
+    animation: text-shake 0.4s infinite linear;
+    z-index: 4;
+  }
+  .rectangle5 img {
+    width: 2vw;
+  }
+  .rectangle6 {
+    position: absolute;
+    top: 60%;
+    left: 80%;
+    animation: text-shake 0.4s infinite linear;
+    z-index: 4;
+  }
+  .rectangle6 img {
+    width: 2vw;
+  }
+
+  .rectangle7 {
+    position: absolute;
+    top: 29%;
+    left: 74.5%;
+    animation: text-shake 0.4s infinite linear;
+    z-index: 4;
+  }
+  .rectangle7 img {
+    width: 2vw;
+  }
+  .rectangle8 {
+    position: absolute;
+    top: 75%;
+    left: 55%;
+    animation: text-shake 0.4s infinite linear;
+    z-index: 4;
+  }
+  .rectangle8 img {
+    width: 2vw;
+  }
+  .rectangle9 {
+    position: absolute;
+    top: 4%;
+    left: 65%;
+    animation: text-shake 0.4s infinite linear;
+    z-index: 4;
+  }
+  .rectangle9 img {
+    width: 2vw;
+  }
+  .rectangle10 {
+    position: absolute;
+    top: 15%;
+    left: 97%;
+    animation: text-shake 0.4s infinite linear;
+    z-index: 4;
+  }
+  .rectangle10 img {
+    width: 2vw;
+  }
+  .rectangle11 {
+    position: absolute;
+    top: 93%;
+    left: 76%;
+    animation: text-shake 0.4s infinite linear;
+    z-index: 4;
+  }
+  .rectangle11 img {
+    width: 2vw;
+  }
+  .rectangle12 {
+    position: absolute;
+    top: 90%;
+    left: 25%;
+    animation: text-shake 0.4s infinite linear;
+    z-index: 4;
+  }
+  .rectangle12 img {
+    width: 2vw;
+  }
+  .msg1 {
+    position: absolute;
+    top: 18%;
+    left: 35%;
+    animation: sooopacity1 2s infinite linear;
+  }
+  .msg1 img {
+    width: 22vw;
+  }
+
+  .msg2 {
+    position: absolute;
+    top: 32%;
+    left: 6%;
+    animation: sooopacity1 1s infinite linear;
+  }
+  .msg2 img {
+    width: 25vw;
+  }
+
+  .msg3 {
+    position: absolute;
+    top: 48%;
+    left: 2%;
+    animation: sooopacity1 6s infinite linear;
+  }
+  .msg3 img {
+    width: 21vw;
+  }
+
+  .msg4 {
+    position: absolute;
+    top: 32.2%;
+    left: 61%;
+    animation: sooopacity1 4s infinite linear;
+  }
+  .msg4 img {
+    width: 23vw;
+  }
+
+  .msg5 {
+    position: absolute;
+    top: 18%;
+    left: 67%;
+    animation: sooopacity1 6s infinite linear;
+  }
+  .msg5 img {
+    width: 23vw;
+  }
+
+  .eyes {
+    position: absolute;
+    top: 34%;
+    left: 4%;
+    z-index: 3;
+  }
+  .eyes img {
+    width: 96vw;
+  }
+
+  .zrachok1 {
+    position: absolute;
+    top: 45.7vw;
+    left: 22.3vw;
+    width: 9.37vw;
+    height: 9.37vw;
+    z-index: 2;
+    background-image: url("../images/zrachok.svg");
+    background-size: 37.5vw 9.37vw;
+    animation: zrachok1 4s steps(1) infinite;
+  }
+  .zrachok2 {
+    position: absolute;
+    top: 45.7vw;
+    left: 63vw;
+    width: 9.37vw;
+    height: 9.37vw;
+    z-index: 2;
+    background-image: url("../images/zrachok.svg");
+    background-size: 37.5vw 9.37vw;
+    animation: zrachok1 4s steps(1) infinite;
+  }
+  .msg6 {
+    position: absolute;
+    top: 5.3%;
+    left: 75.8%;
+    z-index: 3;
+    animation: sooopacity2 4s infinite linear;
+  }
+  .msg6 img {
+    width: 24vw;
+  }
+
+  .msg7 {
+    position: absolute;
+    top: 25.6%;
+    left: 79%;
+    z-index: 3;
+    animation: sooopacity1 6s infinite linear;
+  }
+  .msg7 img {
+    width: 21vw;
+  }
+
+  .msg8 {
+    position: absolute;
+    top: 11.3%;
+    left: 57%;
+    z-index: 3;
+    animation: sooopacity1 2s infinite linear;
+  }
+  .msg8 img {
+    width: 21vw;
+  }
+
+  .msg9 {
+    position: absolute;
+    top: 4.3%;
+    left: 40%;
+    z-index: 3;
+    animation: sooopacity2 5s infinite linear;
+  }
+  .msg9 img {
+    width: 21vw;
+  }
+
+  .msg10 {
+    position: absolute;
+    top: 10.4%;
+    left: 19%;
+    z-index: 3;
+    animation: sooopacity1 3s infinite linear;
+  }
+  .msg10 img {
+    width: 22vw;
+  }
+
+  .msg11 {
+    position: absolute;
+    top: 3.2%;
+    left: 4%;
+    z-index: 3;
+    animation: sooopacity1 5s infinite linear;
+  }
+  .msg11 img {
+    width: 20vw;
+  }
+
+  .msg12 {
+    position: absolute;
+    top: 19.4%;
+    left: 1.7%;
+    z-index: 3;
+    animation: sooopacity2 1s infinite linear;
+  }
+  .msg12 img {
+    width: 24vw;
+  }
+
+  .msg13 {
+    position: absolute;
+    top: 28.9%;
+    left: 40%;
+    z-index: 3;
+    animation: sooopacity1 3s infinite linear;
+  }
+  .msg13 img {
+    width: 25vw;
+  }
+
+  .msg14 {
+    position: absolute;
+    top: 58.3%;
+    left: 8%;
+    z-index: 3;
+    animation: sooopacity1 5s infinite linear;
+  }
+  .msg14 img {
+    width: 21vw;
+  }
+
+  .msg15 {
+    position: absolute;
+    top: 70.8%;
+    left: 1.8%;
+    z-index: 3;
+    animation: sooopacity2 2s infinite linear;
+  }
+  .msg15 img {
+    width: 25vw;
+  }
+
+  .msg16 {
+    position: absolute;
+    top: 73.2%;
+    left: 28%;
+    z-index: 3;
+    animation: sooopacity1 4s infinite linear;
+  }
+  .msg16 img {
+    width: 21vw;
+  }
+
+  .msg17 {
+    position: absolute;
+    top: 89.9%;
+    left: 0%;
+    z-index: 2;
+  }
+  .msg17 img {
+    width: 21vw;
+  }
+
+  .msg18 {
+    position: absolute;
+    top: 84.4%;
+    left: 25%;
+    z-index: 3;
+    animation: sooopacity2 3s infinite linear;
+  }
+  .msg18 img {
+    width: 25vw;
+  }
+
+  .msg19 {
+    position: absolute;
+    top: 55.5%;
+    left: 39%;
+    z-index: 3;
+    animation: sooopacity1 6s infinite linear;
+  }
+  .msg19 img {
+    width: 28vw;
+  }
+
+  .msg20 {
+    position: absolute;
+    top: 66.9%;
+    left: 49.3%;
+    z-index: 2;
+    animation: sooopacity2 5s infinite linear;
+  }
+  .msg20 img {
+    width: 24vw;
+  }
+
+  .msg21 {
+    position: absolute;
+    top: 75.3%;
+    left: 60%;
+    z-index: 3;
+    animation: sooopacity1 2s infinite linear;
+  }
+  .msg21 img {
+    width: 21vw;
+  }
+
+  .msg22 {
+    position: absolute;
+    top: 87.5%;
+    left: 50.5%;
+    z-index: 1;
+    animation: sooopacity2 4s infinite linear;
+  }
+  .msg22 img {
+    width: 25vw;
+  }
+
+  .msg23 {
+    position: absolute;
+    top: 65.8%;
+    left: 75%;
+    z-index: 2;
+    animation: sooopacity1 4s infinite linear;
+  }
+  .msg23 img {
+    width: 24vw;
+  }
+
+  .msg24 {
+    position: absolute;
+    top: 90.4%;
+    left: 79%;
+    z-index: 3;
+    animation: sooopacity2 2s infinite linear;
+  }
+  .msg24 img {
+    width: 20vw;
+  }
+
+  .msg25 {
+    position: absolute;
+    top: 81.1%;
+    left: 77.3%;
+    z-index: 2;
+    animation: sooopacity1 3s infinite linear;
+  }
+  .msg25 img {
+    width: 21vw;
+  }
+
+  .msg26 {
+    position: absolute;
+    top: 55.5%;
+    left: 79%;
+    z-index: 3;
+    animation: sooopacity2 3s infinite linear;
+  }
+  .msg26 img {
+    width: 21vw;
+  }
+  .stroka1-4 p {
+    font-family: "EpilepsySansBold";
+    padding-bottom: 1vw;
+    padding-top: 0.6vw;
+
+    /* font-size: 3.2789vw; */
+    font-size: 8vw;
+    font-weight: bold;
+    font-style: normal;
+    color: #00da04;
+    animation: marquee1 6s infinite linear;
+    width: 680%;
+  }
+
+  .soo1 img {
+    width: 27vw;
+  }
+  .soo2 img {
+    width: 22vw;
+  }
+  .soo3 img {
+    width: 25vw;
+  }
+  .soo3 {
+    position: absolute;
+    top: 73%;
+    left: 20%;
+  }
+  .soo4 img {
+    width: 14vw;
+  }
+  .soo5 img {
+    width: 22vw;
+  }
+  .soo6 img {
+    width: 22vw;
+  }
+  .soo6 {
+    position: absolute;
+    top: 46%;
+    left: 40%;
+  }
+  .soo7 img {
+    width: 24vw;
+  }
+  .soo8 img {
+    width: 15vw;
+  }
+  .soo9 img {
+    width: 21vw;
+  }
+  .soo10 img {
+    width: 16vw;
+  }
+  .soo10 {
+    position: absolute;
+    top: 40%;
+    left: 84%;
+  }
+  .soo11 img {
+    width: 17vw;
+  }
+  .podval-text {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 3vw;
+    font-family: "EpilepsySansBold";
+    font-weight: bold;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 3.5vw;
+  }
 }

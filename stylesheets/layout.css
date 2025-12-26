@@ -31,21 +31,132 @@ body {
 .back img {
   height: auto;
 }
-
-/* .back img:hover {
-  scale: 1.1;
-} */
-
-/* .eyes {
+.rectangle1 {
   position: absolute;
-  width: 99vw;
-  padding-top: 14vw;
-  z-index: 2;
-} */
+  top: 25%;
+  left: 22%;
+  animation: text-shake 0.4s infinite linear;
+  z-index: 4;
+}
+.rectangle1 img {
+  width: 1vw;
+}
+.rectangle2 {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  animation: text-shake 0.4s infinite linear;
+  z-index: 4;
+}
+.rectangle2 img {
+  width: 1vw;
+}
+.rectangle3 {
+  position: absolute;
+  top: 65%;
+  left: 30%;
+  animation: text-shake 0.4s infinite linear;
+  z-index: 4;
+}
+.rectangle3 img {
+  width: 1vw;
+}
+.rectangle4 {
+  position: absolute;
+  top: 62%;
+  left: 2%;
+  animation: text-shake 0.4s infinite linear;
+  z-index: 4;
+}
+.rectangle4 img {
+  width: 1vw;
+}
+.rectangle5 {
+  position: absolute;
+  top: 5%;
+  left: 3%;
+  animation: text-shake 0.4s infinite linear;
+  z-index: 4;
+}
+.rectangle5 img {
+  width: 1vw;
+}
+.rectangle6 {
+  position: absolute;
+  top: 60%;
+  left: 80%;
+  animation: text-shake 0.4s infinite linear;
+  z-index: 4;
+}
+.rectangle6 img {
+  width: 1vw;
+}
+
+.rectangle7 {
+  position: absolute;
+  top: 29%;
+  left: 74.5%;
+  animation: text-shake 0.4s infinite linear;
+  z-index: 4;
+}
+.rectangle7 img {
+  width: 1vw;
+}
+.rectangle8 {
+  position: absolute;
+  top: 70%;
+  left: 60%;
+  animation: text-shake 0.4s infinite linear;
+  z-index: 4;
+}
+.rectangle8 img {
+  width: 1vw;
+}
+.rectangle9 {
+  position: absolute;
+  top: 4%;
+  left: 55%;
+  animation: text-shake 0.4s infinite linear;
+  z-index: 4;
+}
+.rectangle9 img {
+  width: 1vw;
+}
+.rectangle10 {
+  position: absolute;
+  top: 15%;
+  left: 97%;
+  animation: text-shake 0.4s infinite linear;
+  z-index: 4;
+}
+.rectangle10 img {
+  width: 1vw;
+}
+.rectangle11 {
+  position: absolute;
+  top: 93%;
+  left: 82%;
+  animation: text-shake 0.4s infinite linear;
+  z-index: 4;
+}
+.rectangle11 img {
+  width: 1vw;
+}
+.rectangle12 {
+  position: absolute;
+  top: 90%;
+  left: 25%;
+  animation: text-shake 0.4s infinite linear;
+  z-index: 4;
+}
+.rectangle12 img {
+  width: 1vw;
+}
 .msg1 {
   position: absolute;
   top: 16%;
   left: 22%;
+  animation: sooopacity1 2s infinite linear;
 }
 .msg1 img {
   width: 13vw;
@@ -54,7 +165,8 @@ body {
 .msg2 {
   position: absolute;
   top: 32%;
-  left: 7%;
+  left: 6%;
+  animation: sooopacity1 1s infinite linear;
 }
 .msg2 img {
   width: 16vw;
@@ -64,6 +176,7 @@ body {
   position: absolute;
   top: 48%;
   left: 2%;
+  animation: sooopacity1 6s infinite linear;
 }
 .msg3 img {
   width: 12vw;
@@ -71,8 +184,9 @@ body {
 
 .msg4 {
   position: absolute;
-  top: 32%;
-  left: 55%;
+  top: 27.2%;
+  left: 59%;
+  animation: sooopacity1 4s infinite linear;
 }
 .msg4 img {
   width: 14vw;
@@ -80,18 +194,52 @@ body {
 
 .msg5 {
   position: absolute;
-  top: 20%;
-  left: 65%;
+  top: 18%;
+  left: 67%;
+  animation: sooopacity1 6s infinite linear;
 }
 .msg5 img {
   width: 12vw;
 }
 
+.eyes {
+  position: absolute;
+  top: 15%;
+  left: 3%;
+  z-index: 3;
+}
+.eyes img {
+  width: 96vw;
+}
+
+.zrachok1 {
+  position: absolute;
+  top: 17vw;
+  left: 21.3vw;
+  width: 9.37vw;
+  height: 9.37vw;
+  z-index: 2;
+  background-image: url("../images/zrachok.svg");
+  background-size: 37.5vw 9.37vw;
+  animation: zrachok1 4s steps(1) infinite;
+}
+.zrachok2 {
+  position: absolute;
+  top: 17vw;
+  left: 62vw;
+  width: 9.37vw;
+  height: 9.37vw;
+  z-index: 2;
+  background-image: url("../images/zrachok.svg");
+  background-size: 37.5vw 9.37vw;
+  animation: zrachok1 4s steps(1) infinite;
+}
 .msg6 {
   position: absolute;
   top: 8.3%;
   left: 79.8%;
   z-index: 3;
+  animation: sooopacity2 4s infinite linear;
 }
 .msg6 img {
   width: 15vw;
@@ -102,6 +250,7 @@ body {
   top: 25.6%;
   left: 85%;
   z-index: 3;
+  animation: sooopacity1 6s infinite linear;
 }
 .msg7 img {
   width: 12vw;
@@ -112,6 +261,7 @@ body {
   top: 11.3%;
   left: 57%;
   z-index: 3;
+  animation: sooopacity1 2s infinite linear;
 }
 .msg8 img {
   width: 12vw;
@@ -122,6 +272,7 @@ body {
   top: 6.3%;
   left: 37%;
   z-index: 3;
+  animation: sooopacity2 5s infinite linear;
 }
 .msg9 img {
   width: 12vw;
@@ -132,6 +283,7 @@ body {
   top: 10.4%;
   left: 19%;
   z-index: 3;
+  animation: sooopacity1 3s infinite linear;
 }
 .msg10 img {
   width: 13vw;
@@ -142,6 +294,7 @@ body {
   top: 4.2%;
   left: 6%;
   z-index: 3;
+  animation: sooopacity1 5s infinite linear;
 }
 .msg11 img {
   width: 11vw;
@@ -152,6 +305,7 @@ body {
   top: 19.4%;
   left: 1.7%;
   z-index: 3;
+  animation: sooopacity2 1s infinite linear;
 }
 .msg12 img {
   width: 15vw;
@@ -162,6 +316,7 @@ body {
   top: 22.9%;
   left: 41%;
   z-index: 3;
+  animation: sooopacity1 3s infinite linear;
 }
 .msg13 img {
   width: 16vw;
@@ -172,6 +327,7 @@ body {
   top: 58.3%;
   left: 8%;
   z-index: 3;
+  animation: sooopacity1 5s infinite linear;
 }
 .msg14 img {
   width: 12vw;
@@ -181,7 +337,8 @@ body {
   position: absolute;
   top: 70.8%;
   left: 1.8%;
-  z-index: 2;
+  z-index: 3;
+  animation: sooopacity2 2s infinite linear;
 }
 .msg15 img {
   width: 17vw;
@@ -192,6 +349,7 @@ body {
   top: 79.2%;
   left: 15%;
   z-index: 3;
+  animation: sooopacity1 4s infinite linear;
 }
 .msg16 img {
   width: 13vw;
@@ -211,7 +369,8 @@ body {
   position: absolute;
   top: 85.4%;
   left: 28%;
-  z-index: 2;
+  z-index: 3;
+  animation: sooopacity2 3s infinite linear;
 }
 .msg18 img {
   width: 17vw;
@@ -222,6 +381,7 @@ body {
   top: 72.5%;
   left: 40%;
   z-index: 3;
+  animation: sooopacity1 6s infinite linear;
 }
 .msg19 img {
   width: 19vw;
@@ -232,6 +392,7 @@ body {
   top: 82.9%;
   left: 49.3%;
   z-index: 2;
+  animation: sooopacity2 5s infinite linear;
 }
 .msg20 img {
   width: 15vw;
@@ -239,9 +400,10 @@ body {
 
 .msg21 {
   position: absolute;
-  top: 77.3%;
-  left: 64%;
+  top: 81.3%;
+  left: 72%;
   z-index: 3;
+  animation: sooopacity1 2s infinite linear;
 }
 .msg21 img {
   width: 13vw;
@@ -252,6 +414,7 @@ body {
   top: 86.5%;
   left: 62.5%;
   z-index: 1;
+  animation: sooopacity2 4s infinite linear;
 }
 .msg22 img {
   width: 16vw;
@@ -259,9 +422,10 @@ body {
 
 .msg23 {
   position: absolute;
-  top: 70.8%;
-  left: 76%;
+  top: 65.8%;
+  left: 84%;
   z-index: 2;
+  animation: sooopacity1 4s infinite linear;
 }
 .msg23 img {
   width: 15vw;
@@ -269,9 +433,10 @@ body {
 
 .msg24 {
   position: absolute;
-  top: 85.4%;
-  left: 79%;
+  top: 88.4%;
+  left: 85%;
   z-index: 3;
+  animation: sooopacity2 2s infinite linear;
 }
 .msg24 img {
   width: 11vw;
@@ -282,6 +447,7 @@ body {
   top: 77.1%;
   left: 84.3%;
   z-index: 2;
+  animation: sooopacity1 3s infinite linear;
 }
 .msg25 img {
   width: 12vw;
@@ -289,9 +455,10 @@ body {
 
 .msg26 {
   position: absolute;
-  top: 62.5%;
-  left: 85%;
+  top: 55.5%;
+  left: 87%;
   z-index: 3;
+  animation: sooopacity2 3s infinite linear;
 }
 .msg26 img {
   width: 12vw;
@@ -350,6 +517,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: circles2 3s infinite linear;
 }
 
 .circles-cell::before {
@@ -358,6 +526,10 @@ body {
   inset: 0;
   border-radius: 50%;
   border: calc(0.1vw + 1px) solid #ff0066;
+  animation: circles1 2s infinite linear;
+}
+.circles-cell:hover {
+  animation: circles1 1s infinite linear;
 }
 
 .circles-cell img {
@@ -426,8 +598,7 @@ body {
 }
 
 .circles-right-row:hover .svg-marquee {
-  /*animation: marquee-svg 45s linear infinite;*/
-  animation-play-state: paused;
+  animation: marquee-svg 7s linear infinite;
 }
 
 .circles-right-row-4 {
@@ -445,6 +616,9 @@ body {
   font-style: normal;
   animation: text-shake 0.6s infinite ease-in-out;
 }
+.circles-right-row-4-text:hover {
+  animation: text-shake 0.2s infinite ease-in-out;
+}
 /* <!-- касеты --> */
 .screen3 {
   display: flex;
@@ -456,7 +630,6 @@ body {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  /* padding: 20px; */
 }
 .card {
   position: relative;
@@ -501,14 +674,16 @@ body {
   position: absolute;
   width: 13vw;
   height: 13vw;
-  /* height: 10vw; */
-  /* animation: spin 1.5s linear infinite; */
   transform-origin: center;
   z-index: 4;
+  animation: wheel 3s infinite linear;
 }
 .wheel {
-  top: 5.49vw;
-  left: 4.99vw;
+  top: 5.2vw;
+  left: 4.98vw;
+}
+.wheel:hover {
+  animation-play-state: paused;
 }
 
 /* Бегущая строка "пробуди связь" */
@@ -529,6 +704,7 @@ body {
   color: #00da04;
   animation: marquee 6s infinite linear;
   width: 230%;
+  padding-bottom: 1vw;
 }
 .stroka1-3 p:hover {
   animation-play-state: paused;
@@ -613,6 +789,25 @@ body {
   height: 100%;
 }
 
+/* radio-port1 {
+  width: 46.79vw;
+  height: 5.78vw;
+  background-image: url("../images/port1.svg");
+  background-size: 140.39vw 5.78vw;
+} */
+
+/* .zrachok2 {
+  position: absolute;
+  top: 17vw;
+  left: 62vw;
+  width: 9.37vw;
+  height: 9.37vw;
+  z-index: 2;
+  background-image: url("../images/zrachok.svg");
+  background-size: 37.5vw 9.37vw;
+  animation: zrachok1 4s steps(1) infinite;
+} */
+
 .radio-rect {
   background-color: #02ff07;
   flex: 0 0 calc(85% / 6);
@@ -626,12 +821,14 @@ body {
   width: 100%;
   height: 1vw;
   background-color: #ffbfd9;
+  animation: color1 4s steps(1) infinite;
 }
 .volna {
   position: relative;
   width: 100%;
   height: 34vw;
   background-color: #ff0066;
+  animation: color 4s steps(1) infinite;
 }
 .volna p {
   position: absolute;
@@ -1762,6 +1959,7 @@ body {
   width: 100%;
   height: 1vw;
   background-color: #ffbfd9;
+  animation: color1 4s steps(1) infinite;
 }
 
 /* Бегущая строка "пробуди связь" */
@@ -1769,18 +1967,21 @@ body {
   background-color: #d2ffd3;
 }
 .stroka1-4 {
-  white-space: nowrap;
+  width: 100%;
   overflow: hidden;
 }
 .stroka1-4 p {
-  display: inline-flex;
   font-family: "EpilepsySansBold";
-  font-size: 4vw;
+  padding-bottom: 1vw;
+  padding-top: 0.6vw;
+
+  /* font-size: 3.2789vw; */
+  font-size: 3.5vw;
   font-weight: bold;
   font-style: normal;
   color: #00da04;
   animation: marquee1 6s infinite linear;
-  width: 230%;
+  width: 200%;
 }
 .stroka1-4 p:hover {
   animation-play-state: paused;
@@ -1800,7 +2001,7 @@ body {
 }
 .soo1 {
   position: absolute;
-  top: 5%;
+  top: 10%;
   left: 0.5%;
 }
 .soo1 img {
@@ -1808,7 +2009,7 @@ body {
 }
 .soo2 {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 1%;
 }
 .soo2 img {
@@ -1816,7 +2017,7 @@ body {
 }
 .soo3 {
   position: absolute;
-  top: 60%;
+  top: 70%;
   left: 20%;
 }
 .soo3 img {
@@ -1824,7 +2025,7 @@ body {
 }
 .soo4 {
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 25%;
 }
 .soo4 img {
@@ -1832,7 +2033,7 @@ body {
 }
 .soo5 {
   position: absolute;
-  top: 3%;
+  top: 13%;
   left: 33%;
 }
 .soo5 img {
@@ -1840,7 +2041,7 @@ body {
 }
 .soo6 {
   position: absolute;
-  top: 33%;
+  top: 43%;
   left: 40%;
 }
 .soo6 img {
@@ -1848,7 +2049,7 @@ body {
 }
 .soo7 {
   position: absolute;
-  top: 45%;
+  top: 55%;
   left: 63%;
 }
 .soo7 img {
@@ -1856,7 +2057,7 @@ body {
 }
 .soo8 {
   position: absolute;
-  top: 20%;
+  top: 30%;
   left: 60%;
 }
 .soo8 img {
@@ -1864,7 +2065,7 @@ body {
 }
 .soo9 {
   position: absolute;
-  top: 5%;
+  top: 15%;
   left: 75%;
 }
 .soo9 img {
@@ -1872,7 +2073,7 @@ body {
 }
 .soo10 {
   position: absolute;
-  top: 30%;
+  top: 40%;
   left: 85%;
 }
 .soo10 img {
@@ -1880,7 +2081,7 @@ body {
 }
 .soo11 {
   position: absolute;
-  top: 65%;
+  top: 79%;
   left: 80%;
 }
 .soo11 img {
