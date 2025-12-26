@@ -43,6 +43,26 @@
     margin-top: 3vw;
     width: 90%;
   }
+  .radio-port {
+    width: 93.58vw;
+    height: 11.56vw;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+  .radio-port1 {
+    background-image: url("../images/port1.svg");
+    background-size: 270.5vw 11.56vw;
+
+    animation: port-anim1 4.5s steps(3) infinite;
+  }
+
+  .radio-port2 {
+    background-image: url("../images/port2.svg");
+    background-size: 270.5vw 11.56vw;
+
+    animation: port-anim1 4.5s steps(3) infinite;
+  }
 
   .wrapper {
     flex-direction: column;
@@ -610,5 +630,14 @@
     font-style: normal;
     color: #ffffff;
     font-size: 3.5vw;
+  }
+  .circles-right-row .marquee-svg {
+    height: 100%;
+    width: auto;
+    margin-right: calc(-1.5px - 0.01vw);
+    flex-shrink: 0;
+  }
+  .circles-right-row-3 .marquee-svg {
+    margin-right: calc(-5.2px - 0.1vw);
   }
 }

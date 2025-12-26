@@ -386,7 +386,6 @@ body {
 .msg19 img {
   width: 19vw;
 }
-
 .msg20 {
   position: absolute;
   top: 82.9%;
@@ -397,7 +396,6 @@ body {
 .msg20 img {
   width: 15vw;
 }
-
 .msg21 {
   position: absolute;
   top: 81.3%;
@@ -419,7 +417,6 @@ body {
 .msg22 img {
   width: 16vw;
 }
-
 .msg23 {
   position: absolute;
   top: 65.8%;
@@ -430,7 +427,6 @@ body {
 .msg23 img {
   width: 15vw;
 }
-
 .msg24 {
   position: absolute;
   top: 88.4%;
@@ -555,9 +551,8 @@ body {
   background: #fff6fa;
 }
 
-.circles-right-row-1 .marquee-svg {
+.circles-right-row-1 .svg-marquee {
   height: 50%;
-  margin-right: -0.11rem;
 }
 
 .circles-right-row-2 {
@@ -567,9 +562,6 @@ body {
 
 .circles-right-row-2 .svg-marquee {
   height: 55%;
-}
-.circles-right-row-2 .marquee-svg {
-  margin-right: -0.22rem;
 }
 
 .circles-right-row-3 {
@@ -581,10 +573,6 @@ body {
   height: 65%;
 }
 
-.circles-right-row-3 .marquee-svg {
-  margin-right: -0.85rem;
-}
-
 .circles-right-row .svg-marquee {
   display: flex;
   width: max-content;
@@ -594,9 +582,12 @@ body {
 .circles-right-row .marquee-svg {
   height: 100%;
   width: auto;
+  margin-right: calc(-1.5px - 0.1vw);
   flex-shrink: 0;
 }
-
+.circles-right-row-3 .marquee-svg {
+  margin-right: calc(-13.8px - 0.1vw);
+}
 .circles-right-row:hover .svg-marquee {
   animation: marquee-svg 7s linear infinite;
 }
@@ -780,33 +771,28 @@ body {
   display: flex;
   justify-content: space-between;
   margin-top: 1vw;
-  width: 100%;
 }
 
-.radio-row-1 .radio-port,
-.radio-row-2 .radio-port {
-  width: 100%;
-  height: 100%;
-}
-
-/* radio-port1 {
+.radio-port {
   width: 46.79vw;
   height: 5.78vw;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.radio-port1 {
   background-image: url("../images/port1.svg");
   background-size: 140.39vw 5.78vw;
-} */
 
-/* .zrachok2 {
-  position: absolute;
-  top: 17vw;
-  left: 62vw;
-  width: 9.37vw;
-  height: 9.37vw;
-  z-index: 2;
-  background-image: url("../images/zrachok.svg");
-  background-size: 37.5vw 9.37vw;
-  animation: zrachok1 4s steps(1) infinite;
-} */
+  animation: port-anim 4.5s steps(3) infinite;
+}
+
+.radio-port2 {
+  background-image: url("../images/port2.svg");
+  background-size: 140.39vw 5.78vw;
+
+  animation: port-anim 4.5s steps(3) infinite;
+}
 
 .radio-rect {
   background-color: #02ff07;

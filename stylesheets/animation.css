@@ -798,3 +798,19 @@
     background-color: #ffbfd9;
   }
 }
+@keyframes port-anim {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -140.39vw 0;
+  }
+}
+@keyframes port-anim1 {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -270.5vw 0;
+  }
+}
