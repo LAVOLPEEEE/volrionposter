@@ -601,7 +601,7 @@ body {
 }
 
 .circles-right-row-4-text {
-  margin-bottom: 0.5em;
+  margin-bottom: 0.5px;
   font-family: "EpilepsySansBold";
   font-weight: bold;
   font-style: normal;
@@ -689,12 +689,12 @@ body {
 .stroka1-3 p {
   display: inline-flex;
   font-family: "EpilepsySansBold";
-  font-size: 4vw;
+  font-size: 3.5vw;
   font-weight: bold;
   font-style: normal;
   color: #00da04;
   animation: marquee 6s infinite linear;
-  width: 230%;
+  width: 200%;
   padding-bottom: 1vw;
 }
 .stroka1-3 p:hover {
@@ -783,14 +783,12 @@ body {
 .radio-port1 {
   background-image: url("../images/port1.svg");
   background-size: 140.39vw 5.78vw;
-
   animation: port-anim 4.5s steps(3) infinite;
 }
 
 .radio-port2 {
   background-image: url("../images/port2.svg");
   background-size: 140.39vw 5.78vw;
-
   animation: port-anim 4.5s steps(3) infinite;
 }
 
@@ -1962,7 +1960,7 @@ body {
   padding-top: 0.6vw;
 
   /* font-size: 3.2789vw; */
-  font-size: 3.5vw;
+  font-size: 3.521vw;
   font-weight: bold;
   font-style: normal;
   color: #00da04;

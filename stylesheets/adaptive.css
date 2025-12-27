@@ -1,8 +1,3 @@
-/* @media screen and (max-width: 1469px) {
-  .stroka1-1 {
-  }
-} */
-
 @media (max-width: 450px) {
   .circles-container {
     flex-direction: column-reverse;
@@ -16,7 +11,7 @@
 
   .circles-right-row-4-text {
     font-size: 7vw;
-    margin-bottom: 0.1em;
+    margin-bottom: 0.1px;
   }
 
   .radio-container {
@@ -53,14 +48,12 @@
   .radio-port1 {
     background-image: url("../images/port1.svg");
     background-size: 270.5vw 11.56vw;
-
     animation: port-anim1 4.5s steps(3) infinite;
   }
 
   .radio-port2 {
     background-image: url("../images/port2.svg");
     background-size: 270.5vw 11.56vw;
-
     animation: port-anim1 4.5s steps(3) infinite;
   }
 
